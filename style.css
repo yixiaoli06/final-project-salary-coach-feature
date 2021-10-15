@@ -1,0 +1,33 @@
+h1{
+font-family: 'Noto Sans', sans-serif;
+font: bold;
+}
+
+h2{
+font: bold;
+}
+
+h4{
+text-align: center;
+}
+
+a{
+text-align: center;
+}
+
+.nav li{
+display: inline-block;
+font-size: 16px;
+padding: 10px;
+}
+
+.ul{
+width: 40%;
+text-align: center;
+padding: 20px 0px 0px 0px;
+}
+
+.slogan{
+text-align: center;
+color: blue;
+}
