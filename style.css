@@ -1,6 +1,9 @@
 h1{
 font-family: 'Noto Sans', sans-serif;
 font: bold;
+text-align: center;
+padding: 20px;
+color: white;
 }
 
 h2{
@@ -19,15 +22,185 @@ text-align: center;
 display: inline-block;
 font-size: 16px;
 padding: 10px;
+float: left;
 }
 
-.ul{
-width: 40%;
+.nav li:hover{
+color: #CC006E;
+}
+
+ul{
+width: 100%;
 text-align: center;
 padding: 20px 0px 0px 0px;
 }
 
+#upper-right{
+float: right;
+padding: 10px;
+}
+
 .slogan{
 text-align: center;
-color: blue;
+}
+
+.jumbotron{
+background-color:#3C64B1;
+color: white;
+padding: 30px 300px;
+}
+
+.btn{
+background-color: #CC006E;
+border: #CC006E;
+align-items:  center;
+font-size: 16px;
+}
+
+.btn:hover{
+background-color:lightpink;
+border: #CC006E;
+color: #CC006E;
+}
+
+.heroCTAflex{
+display: flex;
+flex-direction: row;
+}
+
+.heroCTA{
+display: flex;
+flex-direction: row;
+width: 33%
+}
+
+.read-reviews-anchor{
+display: flex;
+flex-direction: row;
+}
+
+.read-reviews{
+color: #2ED005;
+}
+
+.read-reviews:hover{
+color: lightgreen;
+}
+
+.intro{
+text-align: center;
+padding: 10px 150px;
+}
+
+.intro-cards{
+display: flex;
+flex-direction: row;
+}
+
+.flex-container{
+display: flex;
+flex-direction: column;
+padding: 40px;
+width: 33%
+}
+
+/*
+#introCTA{
+width: 60%
+}
+*/
+
+.find-coach{
+text-align: center;
+padding: 20px 150px;
+}
+
+.heading{
+padding: 30px;
+}
+
+.form{
+display: flex;
+flex-direction: column;
+padding: 50px;
+}
+
+.q1{
+padding: 20px;
+}
+
+.q2{
+padding: 20px;
+}
+
+.q3{
+padding: 20px;
+}
+
+.end-of-form{
+padding: 30px;
+}
+
+.formCTA{
+padding: 150px;
+display:flex;
+flex-direction: row;
+}
+
+#formbuttons{
+padding: 10px 30px;
+}
+
+.review{
+display:flex;
+flex-direction: row;
+}
+
+.review-left{
+padding: 0px 50px;
+}
+
+.review-right{
+padding: 100px;
+width: 70%;
+}
+
+#kiara-photo{
+padding: 20px;
+}
+
+.footer{
+background-color:#3C64B1;
+color: white;
+padding: 50px 50px;
+display: flex;
+}
+
+.light-logo{
+padding: 40px;
+width: 100%;
+}
+
+.explore-indeed{
+padding: 40px;
+width: 100%;
+}
+
+.explore-indeed-cont{
+padding: 40px;
+width: 100%;
+}
+
+.resources{
+padding: 40px;
+width: 100%;
+}
+
+.follow-us{
+padding: 40px;
+width: 100%;
+}
+
+#footerheading{
+text-align: left;
 }
