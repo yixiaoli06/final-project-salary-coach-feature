@@ -45,7 +45,7 @@ text-align: center;
 }
 
 .jumbotron{
-background-color:#3C64B1;
+background-image: url("../final-project-salary-coach-feature/images/hero.jpg");
 color: white;
 padding: 30px 300px;
 }
