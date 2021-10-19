@@ -121,6 +121,12 @@ display: flex;
 flex-direction: row;
 }
 
+.price{
+font-weight: bold;
+padding: 0px;
+margin: 0px;
+}
+
 .flex-container{
 display: flex;
 flex-direction: column;
@@ -216,9 +222,14 @@ padding: 100px;
 padding: 100px;
 }
 
-#kiara-photo{
-padding: 20px;
+
+
+.carousel-control-prev{
+color: #3C64B1;
 }
+
+
+
 
 .footer{
 background-color:#3C64B1;
@@ -255,3 +266,4 @@ width: 100%;
 #footerheading{
 text-align: left;
 }
+
