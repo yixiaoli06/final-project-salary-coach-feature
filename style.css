@@ -61,8 +61,8 @@ text-align: center;
 padding: 5% 0% 0% 0%;
 }
 
-.slogan{
-text-align: left;
+#upper-right{
+float: left;
 }
 
 .jumbotron{
@@ -71,13 +71,79 @@ padding: 5% 10%;
 }
 
 .intro{
-text-align: left;
+text-align: center;
 padding: 5% 10%;
 }
 
-
+h1{
+text-align: left;
+padding: 5%;
 }
 
+.intro{
+text-align: center;
+padding: 5% 10%;
+}
+
+.intro-cards{
+display: flex;
+flex-direction: column;
+}
+
+.find-coach{
+text-align: center;
+padding: 5% 10%;
+}
+
+.review-container{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+.review-left{
+margin-left: 10%;
+}
+
+.review-right{
+margin-right: 10%;
+}
+
+.footer{
+padding: 10% 10%;
+display: flex;
+flex-direction: column;
+}
+
+.light-logo{
+padding: 10%;
+width: 100%;
+}
+
+.explore-indeed{
+padding: 10%;
+width: 100%;
+}
+
+.explore-indeed-cont{
+padding: 10%;
+width: 100%;
+}
+
+.resources{
+padding: 10%;
+width: 100%;
+}
+
+.follow-us{
+padding: 10%;
+width: 100%;
+}
+
+#footerheading{
+text-align: left;
+}
+}
 
 
 .slogan{
@@ -257,11 +323,6 @@ padding: 100px;
 
 .review-right{
 padding: 100px;
-}
-
-
-.carousel-control-prev{
-color: #3C64B1;
 }
 
 
