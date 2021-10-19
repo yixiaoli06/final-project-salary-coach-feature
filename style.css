@@ -55,12 +55,23 @@ padding: 0px;
 float: left;
 }
 
+ul{
+width: 40%;
+text-align: center;
+padding: 5% 0% 0% 0%;
+}
+
 .slogan{
 text-align: left;
 }
 
 .jumbotron{
 background-image: url("../final-project-salary-coach-feature/images/hero.jpg");
+padding: 5% 10%;
+}
+
+.intro{
+text-align: left;
 padding: 5% 10%;
 }
 
