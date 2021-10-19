@@ -17,6 +17,9 @@
 </head>
     <nav class="nav" style="background-color: #e3f2fd;">
         <ul class="ul">
+            <li class="li" id="logo">
+                <img src="images/Indeed_2021_Logo_RGB_Blue.png" style="width:130px; height:50px;" alt="indeed-logo-dark">
+            </li>
             <li class="li">Find jobs
             </li>
             <li class="li">Company reviews
@@ -36,17 +39,16 @@
         <p class="lead">Our data indicates that people who negotiate without outside support 
             lose out on $7-20K a year and lose $1M over their career. Want to be sure you're getting the maximum salary you deserve? Let us connect you with a coach who can help guide you.</p>
         <hr class="my-4">
-        <p></p>
         <div class="heroCTAflex">
             <div class="heroCTA-get-started">
                 <a class="btn btn-primary btn-lg" href="#get-started" role="button">Get started</a>
             </div>
             <div class="heroCTA-learn-more">
-                    <a class="btn btn-primary btn-lg" href="#learn-more" role="button">Learn more</a>
-                <div class="read-reviews-container"></div>
-                    <a class="read-reviews" href="#read-reviews">Read reviews</a>
-                </div>
+                <a class="btn btn-outline-primary btn-lg" id="alt-btn-style" href="#learn-more" role="button">Learn more</a>
             </div>
+        </div>
+        <div class="read-reviews-container">
+            <a class="read-reviews" href="#read-reviews">Read reviews</a>
         </div>
     </div>
 </section>
@@ -58,18 +60,26 @@
     </div>
     <div class="intro-cards">
         <div class="flex-container">
-            <img>
+            <div class="intro-icon">
+                <img src="images/icon-step-1.png" style="width:50px; height:50px;" alt="icon-step-1">
+            </div>
             <h4>Tell us about yourself</h4>
             <p>We want to know about your current salary, all the communication you have with the company so far, and what the offer is.</p>
         </div>
         <div class="flex-container">
-            <img>
+            <div class="intro-icon">
+                <img src="images/icon-step-2.png" style="width:50px; height:50px;" alt="icon-step-2">
+            </div>
             <h4>Book a salary coach</h4>
             <p>We provide the survey to match you with the best coach. Explore our roster of top-notch salary coaches who provide the service you need. </p>
-            <a class="btn btn-primary btn-lg" id="introCTA" href="#get-started" role="button">Get started</a>
-        </div>
+            <div class="central-btn">
+                <a class="btn btn-primary btn-lg" id="introCTA" href="#get-started" role="button">Get started</a>
+            </div>
+            </div>
         <div class="flex-container">
-            <img>
+            <div class="intro-icon">
+                <img src="images/icon-step-3.png" style="width:50px; height:50px;" alt="icon-step-3">
+            </div>
             <h4>Get started</h4>
             <p>Meet with your salary coach for a session by phone or video—and kick your career into high gear only for $30 per session!</p>
         </div>
@@ -101,7 +111,7 @@
                 </label>
             </div>
         </div>
-        <div class="q2">  
+        <div class="q2">
             <h5>What industry?</h5>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
@@ -183,37 +193,43 @@
             </div>
         <div class="end-of-form">
             <h5>You are finished!</h5>
-            <a class="btn btn-primary btn-lg" id="introCTA" href="#https://yixiaoli06.github.io/final-project-salary-meet-your-matches/" role="button">Meet your matches</a>
+            <a class="btn btn-primary btn-lg" href="https://yixiaoli06.github.io/final-project-salary-meet-your-matches/" role="button">Meet your matches</a>
         </div>
     </div>
 </section>
 
 <section>
     <div class="review">
-        <div class="review-left">
-            <h2 id="read-reviews">What people are saying</h2>
-            <div class="formCTA">
-                <a class="btn btn-primary btn-lg" id="formbuttons" href="#get-started" role="button">Get started</a>
-                <a class="btn btn-primary btn-lg" id="formbuttons" href="#learn-more" role="button">Learn more</a>
-            </div>
-        </div>
-        <div class="review-right">
-            <div class="card mb-3" style="max-width: 800px; height: 400px;" >
-                <div class="row no-gutters">
-                  <div class="col-md-4" id="kiara-photo">
-                    <img src="images/kiara.png" class="card-img" alt="review-photo">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Kiara Samone</h5>
-                      <p class="card-text"><small class="text-muted">Software developer</small></p>
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus urna mi, convallis at ornare quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus urna mi, convallis at ornare quis</p>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="review-container">
 
+            <div class="review-left">
+                <h2 id="read-reviews">What people are saying</h2>
+                <div class="formCTA">
+                    <div class="form-btn-get-started">
+                        <a class="btn btn-primary btn-lg" id="formbutton" href="#get-started" role="button">Get started</a>
+                    </div>
+                    <div class="form-btn-learn-more">
+                        <a class="btn btn-primary btn-lg" id="formbuttons-alt" href="#learn-more" role="button">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-right">
+                <div class="card mb-3" style="max-width: 800px; height: 400px;" >
+                    <div class="row no-gutters">
+                        <div class="col-md-4" id="kiara-photo">
+                        <img src="images/review-1.png" class="card-img" alt="review-photo">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Kiara Samone</h5>
+                            <p class="card-text"><small class="text-muted">Software developer</small></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus urna mi, convallis at ornare quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus urna mi, convallis at ornare quis</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -221,8 +237,8 @@
 <section>
     <div class="footer">
         <div class="light-logo">
-        <img src="#">
-          </div>
+            <img src="images/Indeed_2021_Logo_RGB_White.png" style="width:130px; height:50px;" alt="indeed-logo-light"> 
+        </div>
         <div class="explore-indeed">
           <h4 id="footerheading">Explore Indeed</h4>
           <p class="lead">Find jobs<br>Company Reviews<br>Find salaries<br>Salary coach</p>
